@@ -8,12 +8,20 @@
 #include <iostream>
 using std::cout;
 using std::endl;
+using std::cin;
+
 
 int main()
 {
+    // Print something
     cout << "Hello, world!" << endl;
     cout << "I hope you're having ";
     cout << "a great day!" << endl;
+    cout << endl;
+
+    // Wait for user
+    cout << "PRESS ENTER ";
+    while (cin.get() != '\n') ;
 
     return 0;
 }
