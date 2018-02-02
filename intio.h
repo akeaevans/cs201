@@ -5,8 +5,8 @@
 // For CS 201 Spring 2018
 // Header for Integer I/O Package
 
-#ifndef FILE_NUMIO_H_INCLUDED
-#define FILE_NUMIO_H_INCLUDED
+#ifndef FILE_INTIO_H_INCLUDED
+#define FILE_INTIO_H_INCLUDED
 
 
 // getInt
@@ -33,5 +33,5 @@ void putInt(int value,      // Value to output
             int minchars);  // Minimum number of characters to output
 
 
-#endif //#ifndef FILE_NUMIO_H_INCLUDED
+#endif //#ifndef FILE_INTIO_H_INCLUDED
 
