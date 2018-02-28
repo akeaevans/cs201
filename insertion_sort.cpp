@@ -26,13 +26,13 @@ void insertionSort(vector<int> & data)
         // Items 0 .. i-1 are sorted.
 
         // Figure out which spot item i goes in
-        int k;  // Declare outside loop so we can use after loop
-        for (k = i; k > 0; --k)
+        int spot;  // Declare outside loop so we can use after loop
+        for (spot = i; spot > 0; --spot)
         {
-            if (data[i] >= data[k-1])
+            if (data[i] >= data[spot-1])
                 break;
         }
-        // Item i should be in spot k
+        // Item i should be at index "spot"
 
         // Put it there
 
