@@ -2,7 +2,7 @@
 // Glenn G. Chappell
 // 19 Nov 2018
 //
-// For CS 201 Fall 2018
+// For CS 201 Spring 2018
 // Source for functions trunc8, trunc
 // struct version
 

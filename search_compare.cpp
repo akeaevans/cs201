@@ -2,7 +2,7 @@
 // Glenn G. Chappell
 // 25 Feb 2018
 //
-// For CS 201 Fall 2018
+// For CS 201 Spring 2018
 // Compare Search Algorithms
 
 #include <iostream>
