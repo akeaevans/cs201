@@ -1,6 +1,8 @@
 // namesort_test.cpp
+// VERSION 2
 // Glenn G. Chappell
 // 30 Mar 2018
+// Updated: 4 Apr 2018
 //
 // For CS 201 Spring 2018
 // Test Program for nameSort
@@ -124,7 +126,7 @@ bool test_nameSort()
             {"d","b"},{"c","a"},{"a","d"},{"b","b"}
         };
         vector<pair<string, string>> c {
-            {"cc","a"},{"d","b"},{"b","b"},{"a","d"}
+            {"c","a"},{"d","b"},{"b","b"},{"a","d"}
         };
         test(allgood, s, c, "size 4 vector");
     }
