@@ -47,7 +47,7 @@ int main()
     printPointerStuff(&(array1[10]), &(array1[90]));
     printPointerStuff(&(array1[5]),  &(array1[68]));
 
-    // Quit when user hits Enter
+    // Wait for user
     cout << "Press ENTER to quit ";
     while (cin.get() != '\n') ;
     cout << endl;

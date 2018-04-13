@@ -111,7 +111,7 @@ int main()
     }
     cout << endl;
 
-    // Quit when user hits Enter
+    // Wait for user
     cout << "Press ENTER to quit ";
     while (cin.get() != '\n') ;
 }

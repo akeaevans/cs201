@@ -165,7 +165,9 @@ int main()
         cout << "NOT ALL TESTS PASSED" << endl;
     }
     cout << endl;
+    cout << endl;
 
+    // Wait for user
     cout << "Press ENTER to quit ";
     while (cin.get() != '\n') ;
 }
