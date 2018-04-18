@@ -1,4 +1,4 @@
-// param.cpp
+// function.cpp
 // Glenn G. Chappell
 // 31 Jan 2018
 //
@@ -11,6 +11,15 @@ using std::endl;
 using std::cin;
 #include <string>
 using std::string;
+
+
+// greeting
+// Print a friendly greeting to our user.
+void greeting()
+{
+    cout << "Hello there! This program demonstrates function calls."
+         << endl;
+}
 
 
 // printCount
@@ -28,9 +37,13 @@ void printCount(string message,  // The message to print
 
 int main()
 {
+    // Friendly greeting
+    greeting();
+    cout << endl;
+
     // Set up data
     const string msg = "Zebras are zebraic.";  // Our message
-    const int ct = 4;                          // Times to print it
+    const int ct = 6;                          // Times to print it
 
     // Explanatory output
     cout << "The message: " << msg << endl;
